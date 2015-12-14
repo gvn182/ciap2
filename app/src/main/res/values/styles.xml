@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppTheme.Light.ActionBar</item>
+        <item name="actionMenuTextColor">@color/maincolor</item>
+    </style>
+
+    <style name="dialogtheme" parent="@android:style/Theme.Holo.Light.DarkActionBar"></style>
+
+    <!-- Transparent ActionBar Style -->
+    <style name="AppTheme.Light.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/maincolor</item>
+        <item name="android:titleTextStyle">@style/HoloTitleText</item>
+        <item name="android:icon">@android:color/transparent</item> <!-- This does the magic! -->
+
+    </style>
+
+
+
+    <style name="HoloTitleText" parent="android:TextAppearance.Holo">
+        <item name="android:layout_centerHorizontal">true</item>drawer_list_item.xml
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="ActionBarSubTitleText" parent="android:TextAppearance.Holo">
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>

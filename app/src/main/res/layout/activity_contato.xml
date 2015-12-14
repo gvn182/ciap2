@@ -1,0 +1,146 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".CategoriaActivity">
+
+
+    <ImageView
+        android:src="@drawable/background_basic"
+        android:layout_width="fill_parent"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content" />
+
+ <LinearLayout
+     android:background="#E5E7E7"
+     android:orientation="vertical"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+<TextView
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/maincolor"
+    android:textStyle="bold"
+    android:text="Classificação Internacional de Atenção Primária - 2ª Edição"
+    />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Comitê Internacional Classificações Wonca (WICC)"
+        />
+ </LinearLayout>
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/phoneicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textColor="@color/maincolor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="(65) 9957-4088"
+            />
+    </LinearLayout>
+
+    <View
+        android:background="#dbdbdb"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        />
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/emailicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textColor="@color/maincolor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="rapha_rossignoli@hotmail.com"
+            />
+    </LinearLayout>
+
+    <View
+        android:background="#dbdbdb"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        />
+
+
+
+    <View
+        android:background="#dbdbdb"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        />
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/maincolor"
+        android:text="Para dúvidas, sugestões ou parcerias, entre em contato conosco pelos canais acima."
+        />
+
+</LinearLayout>
+</ScrollView>
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#3E3E3E"
+        android:dividerHeight="1dp"
+        android:background="#282828"/>
+
+</android.support.v4.widget.DrawerLayout>
